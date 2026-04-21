@@ -80,9 +80,56 @@ section {
     width: auto;
     height: auto;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
+
+#productsCard {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#productsCard img {
+    width: 100%;
+    max-height: 200px;
+    display: block;
+}
+#productsCard::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#productsCard #productsInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: white;
+}
+#productsCard #productsInfo h5 {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+}
+
+#productsCard #productsInfo p {
+    background: rgba(88, 255, 72, 0.85);
+    margin: 0;
+    padding: 15px;
+    font-size: 13px;
+    text-align: left;
+}
+
+#productsInfo a {
+    text-decoration: none;
+    color: white;
+}
+
 #catalog img {
     width: 100%;
     height: 100vh;
