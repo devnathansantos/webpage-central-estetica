@@ -8,30 +8,38 @@
 </head>
 <body>
 <header>
-    <h1>Seja Bem-vindo ao nosso site!</h1>
-    <h3>O tratamento que o seu carro merece!</h3>
-    <img src="https://picsum.photos/300/200" alt="Carro feito na Estética">
-    <nav>
-        <a href="#">Onde estamos?</a>
-        <a href="#">Produtos</a>
-        <a href="#">Catálogo</a>
-        <a href="#">Feedbacks</a>
-        <a href="#">Orçamento</a>
-    </nav>
+<div id="topo">
+    <h2>Central Estética Automotiva</h2>
+</div>
+<div id="hero">
+    <h1>
+        O tratamento que o seu carro merece!
+    </h1>
+        <p>
+            Qualidade, cuidado e resultado profissional!
+        </p>
+</div>
 </header>
-    <section>
+    <nav id="menu">
+        <a href="#localizacao">Onde estamos?</a>
+        <a href="#products">Produtos</a>
+        <a href="#catalog">Catálogo</a>
+        <a href="#feedbacks">Feedbacks</a>
+        <a href="#orcamento">Orçamento</a>
+    </nav>
+    <section id="localizacao">
         <h3>Onde estamos?</h3>
             <img src="https://picsum.photos/300/200" alt="Foto da empresa de frente">
             <p>
                 Estamos localizados na <strong>Rua Armando Siegel, Nº245, Ponte do Imaruim</strong>
             </p>
     </section>
-    <section>
+    <section id="products">
     <h3>Produtos que utilizamos</h3>
         <p>
             Abaixo você verá uma variedade de produtos que utilizamos para manter o seu carro limpo, cheiroso e com aspecto de novo!
         </p>
-            <div id="products">
+            <div id="productsGrid">
                 <div>Produto 1</div>
                 <div>Produto 2</div>
                 <div>Produto 3</div>
@@ -43,16 +51,16 @@
                 <div>Produto 9</div>
             </div>
     </section>
-    <section>
+    <section id="catalog">
     <h3>Catálogo</h3>
         <p>
             Abaixo segue o link para abertura de nosso catálogo!
         </p>
-        <img id="CatalogImage1" src="https://picsum.photos/300/200" alt="Imagem do catálogo 1">
-        <img id="CatalogImage2" src="https://picsum.photos/300/200" alt="Imagem do catálogo 2">
-        <img id="CatalogImage3" src="https://picsum.photos/300/200" alt="Imagem do catálogo 3">
+        <img src="https://picsum.photos/300/200" alt="Imagem do catálogo 1">
+        <img src="https://picsum.photos/300/200" alt="Imagem do catálogo 2">
+        <img src="https://picsum.photos/300/200" alt="Imagem do catálogo 3">
     </section>
-    <section>
+    <section id="feedbacks">
         <h3>Feedbacks</h3>
         <p>Veja os nossos clientes satisfeitos após realizarem um dos nossos serviços!</p>
 
@@ -114,7 +122,7 @@
             </div>
     </section>
    <form>
-    <fieldset>
+    <fieldset id="orcamento">
         <legend>Faça seu orçamento conosco!</legend>
 
         <input type="text" placeholder="Escreva seu nome">
