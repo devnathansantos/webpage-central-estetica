@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(231, 255, 145);
+    color: black;
+}
+
+header {
+    width: auto;
+
+}
+nav {
+    width: auto;
+}
+#products {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+#CatalogImage1 {
+    display: block;
+}
+#CatalogImage2 {
+    display: block;
+}
+#CatalogImage3 {
+    display: block;
+}
+#Boxfeedbacks {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+
+}
