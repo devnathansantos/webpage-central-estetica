@@ -235,3 +235,15 @@ footer {
     color: darkgreen;
     border-radius: 30px 30px 0 0;
 }
+#whatsappButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(0, 255, 0);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+}
