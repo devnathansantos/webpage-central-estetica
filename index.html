@@ -10,11 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="page-content">
 <header>
-<div id="topo">
+<div id="topo" class="reveal">
     <h2>Central Estética Automotiva</h2>
 </div>
-<div id="hero">
+<div id="hero" class="reveal">
     <h1>
         O tratamento que o seu carro merece!
     </h1>
@@ -23,27 +24,26 @@
         </p>
 </div>
 </header>
-    <nav id="menu">
+    <nav id="menu" class="reveal">
         <a href="#localizacao">Onde estamos?</a>
         <a href="#products">Produtos</a>
         <a href="#catalog">Catálogo</a>
         <a href="#feedbacks">Feedbacks</a>
-        <a href="#orcamento">Orçamento</a>
     </nav>
 <main>
-    <section id="localizacao">
+    <section id="localizacao" class="reveal">
         <h3>Onde estamos?</h3>
             <img src="https://picsum.photos/300/200" alt="Foto da empresa de frente">
             <p>
                 Estamos localizados na <strong id="street">Rua Armando Siegel, Nº245, Ponte do Imaruim</strong>
             </p>
     </section>
-    <section id="products">
+    <section id="products" class="reveal">
     <h3>Produtos que utilizamos</h3>
         <p>
             Abaixo você verá uma variedade de produtos que utilizamos para manter o seu carro limpo, cheiroso e com aspecto de novo!
         </p>
-            <div id="productsGrid">
+            <div id="productsGrid" class="reveal">
                 <div id="productsCard">
                     <img src="https://picsum.photos/300/200" alt="Produto">
                         <div id="productsInfo">
@@ -146,7 +146,7 @@
                 </div>  
             </div>
     </section>
-    <section id="catalog">
+    <section id="catalog" class="reveal">
     <h3>Catálogo</h3>
         <p>
             Abaixo terá o nosso catalogo com todos os trabalhos disponiveis para você!
@@ -155,7 +155,7 @@
         <img src="https://picsum.photos/300/200" alt="Imagem do catálogo 2">
         <img src="https://picsum.photos/300/200" alt="Imagem do catálogo 3">
     </section>
-    <section id="feedbacks">
+    <section id="feedbacks" class="reveal">
         <h3>Feedbacks</h3>
         <p>Veja os nossos clientes satisfeitos após realizarem um dos nossos serviços!</p>
         <div id="feedbacksGrid">
@@ -240,11 +240,13 @@
         </div>
     </section>
 </main>
-<footer>
+<footer class="reveal">
     <p>&copy; 2026 Central Estética Automotiva</p>
 </footer>
-<a href="https//wa.me5548998477867" target="_blank" id="whatsappButton">
+</div>
+<a href="https//wa.me/5548998477867" target="_blank" id="whatsappButton">
      <img src="#" alt="Logo">
 </a>
+<script src="script.js"></script>
 </body>
 </html>

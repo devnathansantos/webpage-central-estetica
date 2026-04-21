@@ -1,5 +1,15 @@
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+* {
+    transition: 0.5s;
 }
 
 body {
@@ -57,7 +67,7 @@ header::before {
 #menu a{
     color: green;
     text-decoration: none;
-    margin: 20px;
+    margin: 40px;
     font-weight: bold;
     transition: 0.3px;
 }
@@ -92,13 +102,14 @@ section p {
     width: auto;
     height: auto;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 30px;
 }
 
 #productsCard {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    transition: transform 0.4s ease;
 }
 
 #productsCard img {
@@ -111,6 +122,11 @@ section p {
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.4);
+}
+
+#productsCard:hover {
+    transform: scale(1.10);
+
 }
 
 #productsCard #productsInfo {
@@ -147,7 +163,14 @@ section p {
     height: 100vh;
     object-fit: cover;
     display: block;
-    margin-top: 10px;
+    margin-top: 50px;
+    transition: transform 0.4s ease;
+    border-radius: 15px;
+}
+
+#catalog:hover img {
+    transform: scale(1.03);
+
 }
 
 #feedbacksGrid {
@@ -155,19 +178,21 @@ section p {
     width: auto;
     height: auto;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 30px;
 }   
 
 #card {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    transition: transform 0.4s ease;
 }
 
 #card img {
     width: 100%;
     max-height: 200px;
     display: block;
+
 }
 
 #card::after {
@@ -176,6 +201,12 @@ section p {
     inset: 0;
     background: rgba(0, 0, 0, 0.4);
 }
+
+#card:hover {
+    transform: scale(1.10);
+
+}
+
 
 #card #info {
     position: absolute;
@@ -206,6 +237,16 @@ section p {
     border-radius: 20px;
     width: 500px;
     padding: 50px;
+}
+
+#localizacao img {
+    transition: transform 0.4s ease;
+    border-radius: 10px;
+}
+
+#localizacao:hover img {
+    transform: scale(1.10);
+
 }
 
 #products {
@@ -246,4 +287,15 @@ footer {
     align-items: center;
     justify-content: center;
     border-radius: 25%;
+    animation: pulse 2s infinite;
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
 }
