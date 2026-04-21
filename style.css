@@ -3,11 +3,10 @@ html {
 }
 
 body {
-    background-color: rgb(231, 255, 145);
-    color: black;
+    background-color: black;
+    color: white;
     height: 100%;
     width: 100vw;
-    border: 1px darkgreen solid;
     margin: 0;
 }
 
@@ -187,4 +186,32 @@ section {
     padding: 15px;
     font-size: 13px;
     text-align: left;
+}
+
+#localizacao {
+    background-color: darkgreen;
+    border-radius: 20px;
+    width: 500px;
+    padding: 50px;
+}
+
+#products {
+    background-color: darkgreen;
+    border-radius: 20px;
+    width: auto;
+    padding: 50px;
+}
+
+#catalog {
+    background-color: darkgreen;
+    border-radius: 20px;
+    width: auto;
+    padding: 50px;
+}
+
+#feedbacks {
+    background-color: darkgreen;
+    border-radius: 20px;
+    width: auto;
+    padding: 50px;
 }
