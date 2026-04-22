@@ -268,6 +268,8 @@ section p {
 #catalogCard img {
     width: 35%;
     object-fit: cover;
+    margin: 10px;
+    border-radius: 10px 5px 5px 10px;
 
 }
 
