@@ -252,6 +252,57 @@ section p {
     padding: 50px;
 }
 
+#catalogContainer {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 20px;
+    height: auto;
+}
+
+#catalogCard {
+    display: flex;
+    border: 5px black solid;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#catalogCard img {
+    width: 35%;
+    object-fit: cover;
+
+}
+
+#catalogInfo {
+    width: 65%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin-left: 35%;
+    text-align: start;
+}
+
+#catalogInfo h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(88, 255, 72, 0.85);
+}
+
+#catalogInfo p {
+    font-size: 15px;
+}
+
+#catalogInfo a {
+    background-color: black;
+    color: darkgreen;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20%;
+    text-align: center;
+}
+
 #feedbacks {
     background-color: darkgreen;
     border-radius: 20px;
