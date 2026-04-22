@@ -287,15 +287,18 @@ section p {
     font-size: 24px;
     font-weight: bold;
     color: rgba(88, 255, 72, 0.85);
+    margin: 0;
 }
 
-#catalogInfo p {
+#catalogInfo p, ul {
     font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 #catalogInfo a {
     background-color: black;
-    color: darkgreen;
+    color: rgb(0, 255, 0);
     text-decoration: none;
     border-radius: 15px;
     padding: 10px;
