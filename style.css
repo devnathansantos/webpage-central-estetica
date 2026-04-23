@@ -16,7 +16,7 @@ body {
     background-color: black;
     color: white;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     font-family: 'Oswald', sans-serif;
 }
