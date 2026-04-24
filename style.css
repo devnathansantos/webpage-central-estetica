@@ -220,14 +220,14 @@ section p {
     text-align: left;
 }
 
-.localizacao {
+#localizacao {
     background-color: darkgreen;
     border-radius: 20px;
     width: auto;
     padding: 50px;
 }
 
-.localizacao img {
+#localizacao img {
     transition: transform 0.4s ease;
     border-radius: 10px;
     max-width: auto;
@@ -235,19 +235,19 @@ section p {
     object-fit: cover;
 }
 
-.localizacao:hover img {
+#localizacao:hover img {
     transform: scale(1.10);
 
 }
 
-.products {
+#products {
     background-color: darkgreen;
     border-radius: 20px;
     width: auto;
     padding: 50px;
 }
 
-.catalog {
+#catalog {
     background-color: darkgreen;
     border-radius: 20px;
     width: auto;
@@ -310,7 +310,7 @@ section p {
     text-align: center;
 }
 
-.feedbacks {
+#feedbacks {
     background-color: darkgreen;
     border-radius: 20px;
     width: auto;
@@ -342,13 +342,13 @@ footer {
     height: 50px;
 
 }
-#reveal {
+.reveal {
     opacity: 0;
     transform: translateY(80px);
     transition: 0.8s ease;
 }
 
-#reveal.active {
+.reveal.active {
     opacity: 1;
     transform: translateY(0);
 }
