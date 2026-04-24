@@ -24,7 +24,7 @@ body {
 header {
     width: auto;
     text-align: center;
-    background-image: url("https://picsum.photos/1200/500");
+    background-image: url("img/header-background.jpeg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -269,11 +269,11 @@ section p {
 }
 
 #catalogCard img {
-    width: 35%;
+    max-width: 35%;
     object-fit: cover;
     margin: 10px;
     border-radius: 10px 5px 5px 10px;
-
+    object-position: left;
 }
 
 #catalogInfo {
