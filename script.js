@@ -1,4 +1,4 @@
-const elements = document.querySelectorAll(".reveal");
+const elements = document.querySelectorAll("#reveal");
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
